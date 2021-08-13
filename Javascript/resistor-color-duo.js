@@ -4,6 +4,6 @@
 //
 
 export const decodedValue = (array) => {
-  return parseFloat(`${colours.indexOf(array[0])}${colours.indexOf(array[1])}`);
+  return Number(`${colours.indexOf(array[0])}${colours.indexOf(array[1])}`);
 };
 const colours = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
